@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Configuration;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
@@ -14,23 +13,23 @@ namespace Twilio.TwiML.WebApi
 {
     public class ValidateRequestAttribute : ActionFilterAttribute
     {
-        private readonly string authToken;
-        private readonly string urlOverride;
+        private readonly string _authToken;
+        private readonly string _urlOverride;
 
         public ValidateRequestAttribute(string token)
         {
-            this.authToken = token;
+            _authToken = token;
         }
 
         public ValidateRequestAttribute(string token, string urlOverride)
         {
-            this.authToken = token;
-            this.urlOverride = urlOverride;
+            _authToken = token;
+            _urlOverride = urlOverride;
         }
 
         public override void OnActionExecuting(HttpActionContext actionContext)
         {
-            if (!IsValidRequest(actionContext, this.authToken, this.urlOverride))
+            if (!IsValidRequest(actionContext, _authToken, _urlOverride))
             {
                 var response = new HttpResponseMessage
                 {

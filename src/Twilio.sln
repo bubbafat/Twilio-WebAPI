@@ -47,12 +47,12 @@ Global
 		{2EF3C30D-3D42-432D-8BD8-67503FCB80C6}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{2EF3C30D-3D42-432D-8BD8-67503FCB80C6}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{2EF3C30D-3D42-432D-8BD8-67503FCB80C6}.Release|x86.ActiveCfg = Release|Any CPU
-		{2EF3C30D-3D42-432D-8BD8-67503FCB80C6}.ReleaseWithPackage|Any CPU.ActiveCfg = ReleaseWithPackage|Any CPU
-		{2EF3C30D-3D42-432D-8BD8-67503FCB80C6}.ReleaseWithPackage|Any CPU.Build.0 = ReleaseWithPackage|Any CPU
-		{2EF3C30D-3D42-432D-8BD8-67503FCB80C6}.ReleaseWithPackage|ARM.ActiveCfg = ReleaseWithPackage|Any CPU
-		{2EF3C30D-3D42-432D-8BD8-67503FCB80C6}.ReleaseWithPackage|Mixed Platforms.ActiveCfg = ReleaseWithPackage|Any CPU
-		{2EF3C30D-3D42-432D-8BD8-67503FCB80C6}.ReleaseWithPackage|Mixed Platforms.Build.0 = ReleaseWithPackage|Any CPU
-		{2EF3C30D-3D42-432D-8BD8-67503FCB80C6}.ReleaseWithPackage|x86.ActiveCfg = ReleaseWithPackage|Any CPU
+		{2EF3C30D-3D42-432D-8BD8-67503FCB80C6}.ReleaseWithPackage|Any CPU.ActiveCfg = Release|Any CPU
+		{2EF3C30D-3D42-432D-8BD8-67503FCB80C6}.ReleaseWithPackage|Any CPU.Build.0 = Release|Any CPU
+		{2EF3C30D-3D42-432D-8BD8-67503FCB80C6}.ReleaseWithPackage|ARM.ActiveCfg = Release|Any CPU
+		{2EF3C30D-3D42-432D-8BD8-67503FCB80C6}.ReleaseWithPackage|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{2EF3C30D-3D42-432D-8BD8-67503FCB80C6}.ReleaseWithPackage|Mixed Platforms.Build.0 = Release|Any CPU
+		{2EF3C30D-3D42-432D-8BD8-67503FCB80C6}.ReleaseWithPackage|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
