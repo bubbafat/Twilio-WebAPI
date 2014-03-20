@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>Robert Horvick</authors>
+    <owners>bubbafat</owners>
+    <licenseUrl>https://github.com/bubbafat/Twilio-WebAPI/blob/master/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/bubbafat/Twilio-WebAPI</projectUrl>
+    <iconUrl>http://www.roberthorvick.com/wp-content/uploads/2014/03/twilio.webapi.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>(Unofficial) Twilio client library for ASP.NET Web API Projects.  Compatible with Web API 2.</description>
+    <releaseNotes>
+      1.0.0 - Initial version based on Twilio 3.1
+
+      This library is not an official Twilio release.  Don’t go to them for support.
+
+      It is meant to be compatible with the Twilio.Mvc library so following their tutorials should work fine.
+    </releaseNotes>
+    <copyright>Copyright 2014</copyright>
+    <tags>REST SMS voice telephony phone twilio twiml webapi</tags>
+    <dependencies>
+      <dependency id="Twilio" />
+      <dependency id="Twilio.TwiML" />
+    </dependencies>
+  </metadata>
+</package>

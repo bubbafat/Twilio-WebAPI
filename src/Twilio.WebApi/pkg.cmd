@@ -1,0 +1,1 @@
+nuget pack Twilio.WebApi.csproj -Build -Prop Configuration=Release -Prop Platform=AnyCpu
